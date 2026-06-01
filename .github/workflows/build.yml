@@ -28,8 +28,8 @@ jobs:
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      - name: Run Gradle
-        run: gradle wrapper
+     # - name: Run Gradle
+     #  run: gradle wrapper
       - name: Run KtLint
         run: ./gradlew ktlintCheck --no-daemon --stacktrace
 
@@ -119,4 +119,4 @@ jobs:
         with:
           name: release-aab
           path: app/build/outputs/bundle/release/
-          retention-days: 7
+            retention-days: 7
