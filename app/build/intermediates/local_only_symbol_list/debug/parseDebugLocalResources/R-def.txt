@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+string app_name
+string favorites
+string import_tracks
+string library
+string no_tracks
+string now_playing
+string playlists
+string queue
+string recent
+string search
+string settings
+string unknown_album
+string unknown_artist
+style Theme.MusicPlayer
+xml backup_rules
+xml data_extraction_rules
