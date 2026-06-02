@@ -43,7 +43,7 @@ dependencies {
     // Compose BOM
     api(platform(libs.androidx.compose.bom))
     api(libs.bundles.compose)
-
+    implementation(project(":core:common"))
     // Image Loading
     api(libs.coil.compose)
     api(libs.coil.svg)

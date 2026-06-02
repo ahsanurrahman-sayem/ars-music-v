@@ -4,6 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -15,15 +17,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.musicplayer.core.common.TimeUtils
 import com.musicplayer.core.model.Track
-import com.musicplayer.core.ui.R
-import com.musicplayer.core.ui.theme.MusicPlayerTheme
+import com.musicplayer.core.common.util.TimeUtils
 
-/**
- * A list item displaying track information with artwork.
- * Used throughout the app in track lists.
- */
 @Composable
 fun TrackListItem(
     track: Track,
@@ -39,7 +35,7 @@ fun TrackListItem(
             .padding(horizontal = 16.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Album art
+
         TrackArtwork(
             track = track,
             modifier = Modifier.size(48.dp),
@@ -48,10 +44,7 @@ fun TrackListItem(
 
         Spacer(modifier = Modifier.width(12.dp))
 
-        // Track info
-        Column(
-            modifier = Modifier.weight(1f)
-        ) {
+        Column(modifier = Modifier.weight(1f)) {
             Text(
                 text = track.title,
                 style = MaterialTheme.typography.bodyMedium,
@@ -63,6 +56,7 @@ fun TrackListItem(
                     MaterialTheme.colorScheme.onSurface
                 }
             )
+
             Text(
                 text = track.artist,
                 style = MaterialTheme.typography.bodySmall,
@@ -72,7 +66,6 @@ fun TrackListItem(
             )
         }
 
-        // Duration
         Text(
             text = TimeUtils.formatDuration(track.durationMs),
             style = MaterialTheme.typography.labelSmall,
@@ -80,14 +73,10 @@ fun TrackListItem(
             modifier = Modifier.padding(start = 8.dp)
         )
 
-        // Trailing content (menu, drag handle, etc.)
         trailingContent?.invoke()
     }
 }
 
-/**
- * Display track artwork with fallback to default icon.
- */
 @Composable
 fun TrackArtwork(
     track: Track,
@@ -119,9 +108,8 @@ fun TrackArtwork(
                 modifier = Modifier.fillMaxSize()
             )
         } else {
-            // Placeholder icon
             Icon(
-                imageVector = androidx.compose.material.icons.Icons.Default.MusicNote,
+                imageVector = Icons.Default.MusicNote,
                 contentDescription = null,
                 tint = if (isPlaying) {
                     MaterialTheme.colorScheme.onPrimaryContainer

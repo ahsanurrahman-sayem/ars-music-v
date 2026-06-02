@@ -11,10 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import com.musicplayer.core.model.RepeatMode
+import com.musicplayer.core.common.util.TimeUtils
 
-/**
- * Main playback controls row: previous, play/pause, next.
- */
 @Composable
 fun MainPlaybackControls(
     isPlaying: Boolean,
@@ -30,7 +28,6 @@ fun MainPlaybackControls(
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Previous
         IconButton(
             onClick = onPreviousClick,
             enabled = canSkipPrevious
@@ -42,7 +39,6 @@ fun MainPlaybackControls(
             )
         }
 
-        // Play/Pause
         FilledIconButton(
             onClick = onPlayPauseClick,
             modifier = Modifier
@@ -59,7 +55,6 @@ fun MainPlaybackControls(
             )
         }
 
-        // Next
         IconButton(
             onClick = onNextClick,
             enabled = canSkipNext
@@ -73,9 +68,6 @@ fun MainPlaybackControls(
     }
 }
 
-/**
- * Secondary controls: shuffle, repeat.
- */
 @Composable
 fun SecondaryPlaybackControls(
     isShuffleOn: Boolean,
@@ -89,7 +81,6 @@ fun SecondaryPlaybackControls(
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Shuffle
         IconButton(onClick = onShuffleClick) {
             Icon(
                 imageVector = Icons.Default.Shuffle,
@@ -102,7 +93,6 @@ fun SecondaryPlaybackControls(
             )
         }
 
-        // Repeat
         IconButton(onClick = onRepeatClick) {
             when (repeatMode) {
                 RepeatMode.OFF -> {
@@ -112,13 +102,14 @@ fun SecondaryPlaybackControls(
                         tint = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
+
                 RepeatMode.ONE -> {
                     BadgedBox(
                         badge = {
                             Badge(
                                 containerColor = MaterialTheme.colorScheme.primary
                             ) {
-                                Text("1", style = MaterialTheme.typography.labelSmall)
+                                Text("1")
                             }
                         }
                     ) {
@@ -129,6 +120,7 @@ fun SecondaryPlaybackControls(
                         )
                     }
                 }
+
                 RepeatMode.ALL -> {
                     Icon(
                         imageVector = Icons.Default.Repeat,
@@ -141,9 +133,6 @@ fun SecondaryPlaybackControls(
     }
 }
 
-/**
- * Seek bar with position and duration display.
- */
 @Composable
 fun SeekBar(
     positionMs: Long,
@@ -169,12 +158,12 @@ fun SeekBar(
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
-                text = com.musicplayer.core.common.TimeUtils.formatDuration(positionMs),
+                text = TimeUtils.formatDuration(positionMs),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
             Text(
-                text = com.musicplayer.core.common.TimeUtils.formatDuration(durationMs),
+                text = TimeUtils.formatDuration(durationMs),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
