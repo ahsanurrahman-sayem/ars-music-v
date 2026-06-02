@@ -1,5 +1,6 @@
 package com.musicplayer.core.common
 
+import android.content.Intent
 import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
@@ -50,13 +51,12 @@ object FileUriUtils {
     /**
      * Check if we have persistable URI permission for the given URI.
      */
-    fun hasPersistablePermission(context: Context, uri: Uri): Boolean {
-        val flags = context.contentResolver.persistedUriPermissions
-            .find { it.uri == uri }?.persistedWriteFlags ?: 0
-        return flags and (Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION) != 0
-    }
-
-    /**
+fun hasPersistablePermission(context: Context, uri: Uri): Boolean {
+	return context.contentResolver.persistedUriPermissions.any {
+		it.uri == uri && it.isReadPermission
+	}
+}
+	/**
      * Take persistable URI permission for the given URI.
      */
     fun takePersistablePermission(context: Context, uri: Uri) {

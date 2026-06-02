@@ -58,21 +58,25 @@ class SettingsRepositoryImpl @Inject constructor(
     }
 
     override suspend fun getSettingsSnapshot(): AppSettings = getSettings().first()
-
     override suspend fun updateSettings(settings: AppSettings) {
-        dataStore.edit { prefs ->
-            prefs[Keys.BACKGROUND_URI] = settings.backgroundUri
-            prefs[Keys.BACKGROUND_BLUR] = settings.backgroundBlur
-            prefs[Keys.BACKGROUND_DIM] = settings.backgroundDim
-            prefs[Keys.BACKGROUND_BRIGHTNESS] = settings.backgroundBrightness
-            prefs[Keys.AUTO_RESUME_PLAYBACK] = settings.autoResumePlayback
-            prefs[Keys.STOP_ON_FOCUS_LOSS] = settings.stopOnFocusLoss
-            prefs[Keys.PAUSE_ON_TRANSIENT_FOCUS_LOSS] = settings.pauseOnTransientFocusLoss
-            prefs[Keys.DUCK_ON_TRANSIENT_FOCUS_LOSS] = settings.duckOnTransientFocusLoss
-            prefs[Keys.SHOW_NOTIFICATION_ARTWORK] = settings.showNotificationArtwork
-            prefs[Keys.KEEP_SCREEN_ON] = settings.keepScreenOn
-        }
-    }
+	        dataStore.edit { prefs ->
+
+			        settings.backgroundUri?.let {
+					            prefs[Keys.BACKGROUND_URI] = it
+						            } ?: prefs.remove(Keys.BACKGROUND_URI)
+
+							            prefs[Keys.BACKGROUND_BLUR] = settings.backgroundBlur
+								            prefs[Keys.BACKGROUND_DIM] = settings.backgroundDim
+									            prefs[Keys.BACKGROUND_BRIGHTNESS] = settings.backgroundBrightness
+										            prefs[Keys.AUTO_RESUME_PLAYBACK] = settings.autoResumePlayback
+											            prefs[Keys.STOP_ON_FOCUS_LOSS] = settings.stopOnFocusLoss
+												            prefs[Keys.PAUSE_ON_TRANSIENT_FOCUS_LOSS] = settings.pauseOnTransientFocusLoss
+													            prefs[Keys.DUCK_ON_TRANSIENT_FOCUS_LOSS] = settings.duckOnTransientFocusLoss
+														            prefs[Keys.SHOW_NOTIFICATION_ARTWORK] = settings.showNotificationArtwork
+															            prefs[Keys.KEEP_SCREEN_ON] = settings.keepScreenOn
+																        }
+																}
+
 
     override suspend fun setBackgroundUri(uri: String?) {
         dataStore.edit { prefs ->

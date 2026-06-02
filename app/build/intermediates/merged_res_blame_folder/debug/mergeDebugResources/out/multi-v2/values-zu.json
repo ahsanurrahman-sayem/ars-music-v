@@ -4,24 +4,7 @@
             "outputFile": "com.musicplayer.app-mergeDebugResources-72:/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,257,356,459,565,672,785",
-                        "endColumns": "97,103,98,102,105,106,112,100",
-                        "endOffsets": "148,252,351,454,560,667,780,881"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,172",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "776,874,978,1077,1180,1286,1393,15114",
-                        "endColumns": "97,103,98,102,105,106,112,100",
-                        "endOffsets": "869,973,1072,1175,1281,1388,1501,15210"
-                    }
-                },
-                {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/30c5037ae89422ea7aa109856be9beac/transformed/media3-session-1.4.1/res/values-zu/values-zu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f38a96cf77c5d75586d3a97e953f522e/transformed/media3-session-1.4.1/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/e6f5b0984722d5ffec66ec66580ccf99/transformed/ui-release/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,282,387,492,582,664,753,846,929,1017,1105,1181,1262,1338,1413,1492,1562",
-                        "endColumns": "94,81,104,104,89,81,88,92,82,87,87,75,80,75,74,78,69,123",
-                        "endOffsets": "195,277,382,487,577,659,748,841,924,1012,1100,1176,1257,1333,1408,1487,1557,1681"
-                    },
-                    "to": {
-                        "startLines": "26,27,28,30,31,99,100,164,165,166,167,168,169,170,171,173,174,175",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1506,1601,1683,1865,1970,7459,7541,14454,14547,14630,14718,14806,14882,14963,15039,15215,15294,15364",
-                        "endColumns": "94,81,104,104,89,81,88,92,82,87,87,75,80,75,74,78,69,123",
-                        "endOffsets": "1596,1678,1783,1965,2055,7536,7625,14542,14625,14713,14801,14877,14958,15034,15109,15289,15359,15483"
-                    }
-                },
-                {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/481b7da727e3f628b4233051f7500260/transformed/material3-release/res/values-zu/values-zu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3a3d592a9963d423849f0de02f6daa32/transformed/material3-release/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3a9c82ba987d2e123008b30829516ec8/transformed/media3-ui-1.4.1/res/values-zu/values-zu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/805cef0d278fbd4c02a102e6f2da73a2/transformed/media3-exoplayer-1.4.1/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,183,245,314,391,471,560,641",
+                        "endColumns": "68,58,61,68,76,79,88,80,68",
+                        "endOffsets": "119,178,240,309,386,466,555,636,705"
+                    },
+                    "to": {
+                        "startLines": "73,74,75,76,77,78,79,80,81",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5710,5779,5838,5900,5969,6046,6126,6215,6296",
+                        "endColumns": "68,58,61,68,76,79,88,80,68",
+                        "endOffsets": "5774,5833,5895,5964,6041,6121,6210,6291,6360"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b119e4c85d4e06e2cc21f6d5b528c91e/transformed/foundation-release/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,146",
+                        "endColumns": "90,91",
+                        "endOffsets": "141,233"
+                    },
+                    "to": {
+                        "startLines": "176,177",
+                        "startColumns": "4,4",
+                        "startOffsets": "15488,15579",
+                        "endColumns": "90,91",
+                        "endOffsets": "15574,15666"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/621daebf5d050ef79ab60ea9a4f913ff/transformed/media3-ui-1.4.1/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,37 +91,37 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a9da04909e370e91e0c699cd39204429/transformed/media3-exoplayer-1.4.1/res/values-zu/values-zu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/res/values-zu/values-zu.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,183,245,314,391,471,560,641",
-                        "endColumns": "68,58,61,68,76,79,88,80,68",
-                        "endOffsets": "119,178,240,309,386,466,555,636,705"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,257,356,459,565,672,785",
+                        "endColumns": "97,103,98,102,105,106,112,100",
+                        "endOffsets": "148,252,351,454,560,667,780,881"
                     },
                     "to": {
-                        "startLines": "73,74,75,76,77,78,79,80,81",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5710,5779,5838,5900,5969,6046,6126,6215,6296",
-                        "endColumns": "68,58,61,68,76,79,88,80,68",
-                        "endOffsets": "5774,5833,5895,5964,6041,6121,6210,6291,6360"
+                        "startLines": "19,20,21,22,23,24,25,172",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "776,874,978,1077,1180,1286,1393,15114",
+                        "endColumns": "97,103,98,102,105,106,112,100",
+                        "endOffsets": "869,973,1072,1175,1281,1388,1501,15210"
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/836301de93e669fe4aa38116b0931e83/transformed/foundation-release/res/values-zu/values-zu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/10d81208ca0b91509ddf9f8b107797cb/transformed/ui-release/res/values-zu/values-zu.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,146",
-                        "endColumns": "90,91",
-                        "endOffsets": "141,233"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,282,387,492,582,664,753,846,929,1017,1105,1181,1262,1338,1413,1492,1562",
+                        "endColumns": "94,81,104,104,89,81,88,92,82,87,87,75,80,75,74,78,69,123",
+                        "endOffsets": "195,277,382,487,577,659,748,841,924,1012,1100,1176,1257,1333,1408,1487,1557,1681"
                     },
                     "to": {
-                        "startLines": "176,177",
-                        "startColumns": "4,4",
-                        "startOffsets": "15488,15579",
-                        "endColumns": "90,91",
-                        "endOffsets": "15574,15666"
+                        "startLines": "26,27,28,30,31,99,100,164,165,166,167,168,169,170,171,173,174,175",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1506,1601,1683,1865,1970,7459,7541,14454,14547,14630,14718,14806,14882,14963,15039,15215,15294,15364",
+                        "endColumns": "94,81,104,104,89,81,88,92,82,87,87,75,80,75,74,78,69,123",
+                        "endOffsets": "1596,1678,1783,1965,2055,7536,7625,14542,14625,14713,14801,14877,14958,15034,15109,15289,15359,15483"
                     }
                 }
             ]

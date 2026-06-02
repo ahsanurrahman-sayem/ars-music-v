@@ -38,19 +38,19 @@
 25-->/data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:19:9-32
 26
 27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-27-->[androidx.media3:media3-exoplayer:1.4.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a9da04909e370e91e0c699cd39204429/transformed/media3-exoplayer-1.4.1/AndroidManifest.xml:22:5-79
-27-->[androidx.media3:media3-exoplayer:1.4.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a9da04909e370e91e0c699cd39204429/transformed/media3-exoplayer-1.4.1/AndroidManifest.xml:22:22-76
+27-->[androidx.media3:media3-exoplayer:1.4.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/805cef0d278fbd4c02a102e6f2da73a2/transformed/media3-exoplayer-1.4.1/AndroidManifest.xml:22:5-79
+27-->[androidx.media3:media3-exoplayer:1.4.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/805cef0d278fbd4c02a102e6f2da73a2/transformed/media3-exoplayer-1.4.1/AndroidManifest.xml:22:22-76
 28
 29    <permission
-29-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+29-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 30        android:name="com.musicplayer.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+30-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+31-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 32
 33    <uses-permission android:name="com.musicplayer.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+33-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 34
 35    <application
 35-->/data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:21:5-86:19
@@ -59,7 +59,7 @@
 37        android:allowBackup="true"
 37-->/data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:23:9-35
 38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+38-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 39        android:dataExtractionRules="@xml/data_extraction_rules"
 39-->/data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:24:9-65
 40        android:debuggable="true"
@@ -186,90 +186,90 @@
 107        </receiver>
 108
 109        <activity
-109-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3e0d3b0f331a478b7b9d21afc069501d/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+109-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/4ad306f01e5a0baeea0cf895c88467ec/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 110            android:name="androidx.compose.ui.tooling.PreviewActivity"
-110-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3e0d3b0f331a478b7b9d21afc069501d/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+110-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/4ad306f01e5a0baeea0cf895c88467ec/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 111            android:exported="true" />
-111-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3e0d3b0f331a478b7b9d21afc069501d/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+111-->[androidx.compose.ui:ui-tooling-android:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/4ad306f01e5a0baeea0cf895c88467ec/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
 112        <activity
-112-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/8649523277a88f2a9bae868782d7c1a9/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:23:9-25:39
+112-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a8b647c8a22609e5a1234b2da059f04f/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:23:9-25:39
 113            android:name="androidx.activity.ComponentActivity"
-113-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/8649523277a88f2a9bae868782d7c1a9/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:24:13-63
+113-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a8b647c8a22609e5a1234b2da059f04f/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:24:13-63
 114            android:exported="true" />
-114-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/8649523277a88f2a9bae868782d7c1a9/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:25:13-36
+114-->[androidx.compose.ui:ui-test-manifest:1.7.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a8b647c8a22609e5a1234b2da059f04f/transformed/ui-test-manifest-1.7.0/AndroidManifest.xml:25:13-36
 115
 116        <provider
-116-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+116-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 117            android:name="androidx.startup.InitializationProvider"
-117-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+117-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 118            android:authorities="com.musicplayer.debug.androidx-startup"
-118-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+118-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 119            android:exported="false" >
-119-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+119-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 120            <meta-data
-120-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+120-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-121-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+121-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 122                android:value="androidx.startup" />
-122-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16bb67c2813079a2cdfa0d52592474f8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+122-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/22ba86ec270ca1bcf9f513b16a182512/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 123            <meta-data
-123-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16c141db8774cf3f47977dada7a39661/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+123-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/ec08f454d1141771aed9195eda226d6e/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
 124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-124-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16c141db8774cf3f47977dada7a39661/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+124-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/ec08f454d1141771aed9195eda226d6e/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
 125                android:value="androidx.startup" />
-125-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/16c141db8774cf3f47977dada7a39661/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+125-->[androidx.lifecycle:lifecycle-process:2.8.5] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/ec08f454d1141771aed9195eda226d6e/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
 126            <meta-data
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 128                android:value="androidx.startup" />
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 129        </provider>
 130
 131        <service
-131-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/c0951ed6d88d3c8c54865326ca912068/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+131-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/05d4ffce9b26131ee2f72c084ef439d6/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
 132            android:name="androidx.room.MultiInstanceInvalidationService"
-132-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/c0951ed6d88d3c8c54865326ca912068/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+132-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/05d4ffce9b26131ee2f72c084ef439d6/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
 133            android:directBootAware="true"
-133-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/c0951ed6d88d3c8c54865326ca912068/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+133-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/05d4ffce9b26131ee2f72c084ef439d6/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
 134            android:exported="false" />
-134-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/c0951ed6d88d3c8c54865326ca912068/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+134-->[androidx.room:room-runtime:2.6.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/05d4ffce9b26131ee2f72c084ef439d6/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
 135
 136        <receiver
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 138            android:directBootAware="false"
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 139            android:enabled="true"
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 140            android:exported="true"
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 141            android:permission="android.permission.DUMP" >
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 144            </intent-filter>
 145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 147            </intent-filter>
 148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 150            </intent-filter>
 151            <intent-filter>
-151-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-152-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-152-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a614113ec33849d13ab95a79c34a0d27/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/974053d18e58bcef14bce23bfea11d30/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 153            </intent-filter>
 154        </receiver>
 155    </application>

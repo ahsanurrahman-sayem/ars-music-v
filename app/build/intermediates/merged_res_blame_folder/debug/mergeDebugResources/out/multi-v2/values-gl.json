@@ -4,7 +4,7 @@
             "outputFile": "com.musicplayer.app-mergeDebugResources-72:/values-gl/values-gl.xml",
             "map": [
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/836301de93e669fe4aa38116b0931e83/transformed/foundation-release/res/values-gl/values-gl.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b119e4c85d4e06e2cc21f6d5b528c91e/transformed/foundation-release/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3a9c82ba987d2e123008b30829516ec8/transformed/media3-ui-1.4.1/res/values-gl/values-gl.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/621daebf5d050ef79ab60ea9a4f913ff/transformed/media3-ui-1.4.1/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/339647c8b1b6a50d34058727cdb9ed57/transformed/core-1.13.1/res/values-gl/values-gl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,154,256,356,454,561,667,783",
-                        "endColumns": "98,101,99,97,106,105,115,100",
-                        "endOffsets": "149,251,351,449,556,662,778,879"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,172",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "732,831,933,1033,1131,1238,1344,15257",
-                        "endColumns": "98,101,99,97,106,105,115,100",
-                        "endOffsets": "826,928,1028,1126,1233,1339,1455,15353"
-                    }
-                },
-                {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/e6f5b0984722d5ffec66ec66580ccf99/transformed/ui-release/res/values-gl/values-gl.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/10d81208ca0b91509ddf9f8b107797cb/transformed/ui-release/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/30c5037ae89422ea7aa109856be9beac/transformed/media3-session-1.4.1/res/values-gl/values-gl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,130,239,320,439,541,635,719,813,919,1021,1088,1193,1292,1389,1465,1557,1640,1733,1808,1880,1957,2034,2132",
-                        "endColumns": "74,108,80,118,101,93,83,93,105,101,66,104,98,96,75,91,82,92,74,71,76,76,97,104",
-                        "endOffsets": "125,234,315,434,536,630,714,808,914,1016,1083,1188,1287,1384,1460,1552,1635,1728,1803,1875,1952,2029,2127,2232"
-                    },
-                    "to": {
-                        "startLines": "29,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,158,159,160,161,162,163",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1748,2013,2122,2203,2322,2424,2518,2602,2696,2802,2904,2971,3076,3175,3272,3348,3440,3523,14081,14156,14228,14305,14382,14480",
-                        "endColumns": "74,108,80,118,101,93,83,93,105,101,66,104,98,96,75,91,82,92,74,71,76,76,97,104",
-                        "endOffsets": "1818,2117,2198,2317,2419,2513,2597,2691,2797,2899,2966,3071,3170,3267,3343,3435,3518,3611,14151,14223,14300,14377,14475,14580"
-                    }
-                },
-                {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/a9da04909e370e91e0c699cd39204429/transformed/media3-exoplayer-1.4.1/res/values-gl/values-gl.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/805cef0d278fbd4c02a102e6f2da73a2/transformed/media3-exoplayer-1.4.1/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -108,7 +74,41 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/481b7da727e3f628b4233051f7500260/transformed/material3-release/res/values-gl/values-gl.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f38a96cf77c5d75586d3a97e953f522e/transformed/media3-session-1.4.1/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,239,320,439,541,635,719,813,919,1021,1088,1193,1292,1389,1465,1557,1640,1733,1808,1880,1957,2034,2132",
+                        "endColumns": "74,108,80,118,101,93,83,93,105,101,66,104,98,96,75,91,82,92,74,71,76,76,97,104",
+                        "endOffsets": "125,234,315,434,536,630,714,808,914,1016,1083,1188,1287,1384,1460,1552,1635,1728,1803,1875,1952,2029,2127,2232"
+                    },
+                    "to": {
+                        "startLines": "29,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,158,159,160,161,162,163",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1748,2013,2122,2203,2322,2424,2518,2602,2696,2802,2904,2971,3076,3175,3272,3348,3440,3523,14081,14156,14228,14305,14382,14480",
+                        "endColumns": "74,108,80,118,101,93,83,93,105,101,66,104,98,96,75,91,82,92,74,71,76,76,97,104",
+                        "endOffsets": "1818,2117,2198,2317,2419,2513,2597,2691,2797,2899,2966,3071,3170,3267,3343,3435,3518,3611,14151,14223,14300,14377,14475,14580"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,783",
+                        "endColumns": "98,101,99,97,106,105,115,100",
+                        "endOffsets": "149,251,351,449,556,662,778,879"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,172",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "732,831,933,1033,1131,1238,1344,15257",
+                        "endColumns": "98,101,99,97,106,105,115,100",
+                        "endOffsets": "826,928,1028,1126,1233,1339,1455,15353"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3a3d592a9963d423849f0de02f6daa32/transformed/material3-release/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
