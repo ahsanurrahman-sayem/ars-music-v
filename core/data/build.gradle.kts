@@ -32,8 +32,8 @@ android {
 
 dependencies {
     // Internal modules
-    implementation(project(":core:model"))
-    implementation(project(":core:common"))
+    api(project(":core:model"))
+    api(project(":core:common"))
 
     // Room
     implementation(libs.bundles.room)
