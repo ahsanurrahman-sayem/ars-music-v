@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml:2:13-83
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml:2:13-83
+	package
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml
+	xmlns:android
+		ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml:2:23-81
+uses-sdk
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml reason: use-sdk injection requested
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml
+	android:targetSdkVersion
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml
+	android:minSdkVersion
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1103621171038408183.xml

@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -25,9 +28,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
     buildFeatures {
         compose = true
     }
@@ -47,6 +47,9 @@ dependencies {
     // Image Loading
     api(libs.coil.compose)
     api(libs.coil.svg)
+
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
 
     // Testing
     debugApi(libs.androidx.compose.ui.tooling)

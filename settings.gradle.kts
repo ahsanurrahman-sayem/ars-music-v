@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MusicPlayer"
+rootProject.name = "ars-music-v"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 

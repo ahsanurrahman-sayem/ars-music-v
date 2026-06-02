@@ -28,9 +28,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
 }
 
 dependencies {
@@ -40,7 +37,8 @@ dependencies {
 
     // Room
     implementation(libs.bundles.room)
-    ksp(libs.androidx.room.compiler)
+//    ksp(libs.androidx.room.compiler)
+    ksp(libs.hilt.compiler)
 
     // DataStore
     implementation(libs.androidx.datastore.preferences)

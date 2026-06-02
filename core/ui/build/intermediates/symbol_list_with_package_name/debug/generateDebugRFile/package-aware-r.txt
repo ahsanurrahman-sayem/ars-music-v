@@ -1,0 +1,2 @@
+com.musicplayer.core.ui
+string ui_module_placeholder

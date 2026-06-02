@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_notification
+drawable ic_pause
+drawable ic_play
+drawable ic_skip_next
+drawable ic_skip_previous
+string app_name
+string next
+string pause
+string play
+string playback_channel_description
+string playback_channel_name
+string previous
+string unknown_artist

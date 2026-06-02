@@ -1,0 +1,6 @@
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/DispatcherProvider.kt
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/FileUriUtils.kt
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/Result.kt
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/AudioMetadataExtractor.kt
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/TimeUtils.kt
+/data/data/com.termux/files/home/ars-music-v/core/common/src/main/java/com/musicplayer/core/common/IdGenerator.kt
