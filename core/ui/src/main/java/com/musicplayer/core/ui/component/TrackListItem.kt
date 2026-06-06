@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.musicplayer.core.model.Track
-import com.musicplayer.core.common.util.TimeUtils
+import com.musicplayer.core.common.TimeUtils
 
 @Composable
 fun TrackListItem(

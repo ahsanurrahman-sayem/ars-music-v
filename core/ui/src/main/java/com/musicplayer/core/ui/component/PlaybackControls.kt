@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import com.musicplayer.core.model.RepeatMode
-import com.musicplayer.core.common.util.TimeUtils
+import com.musicplayer.core.common.TimeUtils
 
 @Composable
 fun MainPlaybackControls(
