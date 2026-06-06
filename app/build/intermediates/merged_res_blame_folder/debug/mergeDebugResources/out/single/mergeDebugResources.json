@@ -1,10 +1,94 @@
 [
     {
-        "merged": "com.musicplayer.app-debug-74:/xml_backup_rules.xml.flat",
-        "source": "com.musicplayer.app-main-76:/xml/backup_rules.xml"
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxhdpi/ic_launcher_monochrome.png"
     },
     {
-        "merged": "com.musicplayer.app-debug-74:/xml_data_extraction_rules.xml.flat",
-        "source": "com.musicplayer.app-main-76:/xml/data_extraction_rules.xml"
+        "merged": "com.musicplayer.app-debug-74:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.musicplayer.app-debug-74:/xml_backup_rules.xml.flat",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.musicplayer.app-main-76:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.musicplayer.app-debug-74:/xml_data_extraction_rules.xml.flat",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.musicplayer.app-main-76:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.musicplayer.app-debug-74:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.musicplayer.app-main-76:/mipmap-xhdpi/ic_launcher.png"
     }
 ]
