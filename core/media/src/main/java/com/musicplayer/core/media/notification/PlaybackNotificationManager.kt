@@ -64,7 +64,7 @@ class PlaybackNotificationManager @Inject constructor(
         val builder = NotificationCompat.Builder(context, CHANNEL_ID)
             .setContentTitle(title)
             .setContentText(artist)
-            .setSmallIcon(R.drawable.ic_notification)
+            .setSmallIcon(androir.R.drawable.ic_notification)
             .setLargeIcon(null) // Will be loaded asynchronously
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setPriority(NotificationCompat.PRIORITY_LOW)
@@ -88,7 +88,6 @@ class PlaybackNotificationManager @Inject constructor(
             )
             .setStyle(
                 androidx.media3.session.MediaStyleNotificationHelper.MediaStyle(
-                    null // MediaSession will be set when available
                 )
                     .setShowActionsInCompactView(0, 1, 2)
             )
