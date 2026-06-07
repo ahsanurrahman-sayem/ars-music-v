@@ -1,4 +1,4 @@
-package com.musicplayer.core.domain.usecase.playlist
+package com.musicplayer.core.domain.usecase.playback
 
 import com.musicplayer.core.model.PlaybackState
 import com.musicplayer.core.model.RepeatMode
