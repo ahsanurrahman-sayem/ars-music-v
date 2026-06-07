@@ -1,0 +1,1 @@
+int string ui_module_placeholder 0x0

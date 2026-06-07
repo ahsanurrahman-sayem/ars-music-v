@@ -115,9 +115,9 @@ fun LibraryScreen(
                     isPlaying = uiState.isPlaying,
                     onPlayPauseClick = viewModel::togglePlayPause,
                     onTrackClick = {
-	val currentTrack = uiState.currentTrack
-	if (currentTrack != null) {
-		onTrackClick(currentTrack)
+	//val currentTrack = uiState.currentTrack
+	if (uiState.currentTrack != null) {
+		onTrackClick(uiState.rurrentTrack)
 	}
 },
                     modifier = Modifier.clickable { onNavigateToPlayer() }

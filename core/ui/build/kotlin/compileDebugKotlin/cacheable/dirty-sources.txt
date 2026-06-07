@@ -1,5 +1,0 @@
-/data/data/com.termux/files/home/ars-music-v/core/ui/src/main/java/com/musicplayer/core/ui/component/PlaybackControls.kt
-/data/data/com.termux/files/home/ars-music-v/core/ui/src/main/java/com/musicplayer/core/ui/theme/Theme.kt
-/data/data/com.termux/files/home/ars-music-v/core/ui/src/main/java/com/musicplayer/core/ui/theme/Color.kt
-/data/data/com.termux/files/home/ars-music-v/core/ui/src/main/java/com/musicplayer/core/ui/theme/Type.kt
-/data/data/com.termux/files/home/ars-music-v/core/ui/src/main/java/com/musicplayer/core/ui/component/TrackListItem.kt

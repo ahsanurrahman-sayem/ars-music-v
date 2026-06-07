@@ -179,7 +179,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /data/data/com.termux/files
 	android:fullBackupContent
 		ADDED from /data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:25:9-54
 	android:roundIcon
-		ADDED from /data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:28:9-54
+		ADDED from /data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:28:9-48
 	tools:targetApi
 		ADDED from /data/data/com.termux/files/home/ars-music-v/app/src/main/AndroidManifest.xml:31:9-29
 	android:icon
