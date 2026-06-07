@@ -117,7 +117,7 @@ fun LibraryScreen(
                     onTrackClick = {
 	//val currentTrack = uiState.currentTrack
 	if (uiState.currentTrack != null) {
-		onTrackClick(uiState.rurrentTrack)
+		onTrackClick(uiState.crurrentTrack)
 	}
 },
                     modifier = Modifier.clickable { onNavigateToPlayer() }
