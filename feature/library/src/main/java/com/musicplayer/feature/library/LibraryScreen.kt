@@ -2,14 +2,12 @@ package com.musicplayer.feature.library
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
-import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -17,15 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.musicplayer.core.common.TimeUtils
 import com.musicplayer.core.model.Track
 import com.musicplayer.core.ui.component.TrackListItem
-import com.musicplayer.core.ui.theme.MusicPlayerTheme
 
-/**
- * Main library screen showing all imported tracks.
- * Provides track list, search, and import functionality.
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LibraryScreen(
@@ -41,7 +33,6 @@ fun LibraryScreen(
     val uiState by viewModel.uiState.collectAsState()
     val searchQuery by viewModel.searchQuery.collectAsState()
 
-    // Document picker for importing tracks
     val documentPicker = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.OpenMultipleDocuments()
     ) { uris ->
@@ -50,7 +41,6 @@ fun LibraryScreen(
         }
     }
 
-    // Receive shared audio files from other apps
     val shareReceiver = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.GetMultipleContents()
     ) { uris ->
@@ -108,18 +98,13 @@ fun LibraryScreen(
             }
         },
         bottomBar = {
-            // Mini player at bottom
-            if (uiState.currentTrack != null) {
+            val currentTrack = uiState.currentTrack
+            if (currentTrack != null) {
                 MiniPlayer(
-                    track = uiState.currentTrack,
+                    track = currentTrack,
                     isPlaying = uiState.isPlaying,
                     onPlayPauseClick = viewModel::togglePlayPause,
-                    onTrackClick = {
-	//val currentTrack = uiState.currentTrack
-	if (uiState.currentTrack != null) {
-		onTrackClick(uiState.crurrentTrack)
-	}
-},
+                    onTrackClick = { onTrackClick(currentTrack) },
                     modifier = Modifier.clickable { onNavigateToPlayer() }
                 )
             }
@@ -154,7 +139,7 @@ fun LibraryScreen(
                             onTrackClick(track)
                         },
                         onTrackOptionsClick = { track ->
-                            // Show track options bottom sheet
+                            // TODO: Show track options bottom sheet
                         }
                     )
                 }
@@ -163,9 +148,6 @@ fun LibraryScreen(
     }
 }
 
-/**
- * List of tracks with current playing indicator.
- */
 @Composable
 private fun TrackList(
     tracks: List<Track>,
@@ -204,9 +186,6 @@ private fun TrackList(
     }
 }
 
-/**
- * Empty state shown when no tracks are imported.
- */
 @Composable
 private fun EmptyLibraryContent(
     onImportClick: () -> Unit,
@@ -244,9 +223,6 @@ private fun EmptyLibraryContent(
     }
 }
 
-/**
- * Mini player shown at bottom of screen.
- */
 @Composable
 private fun MiniPlayer(
     track: Track,
@@ -267,7 +243,6 @@ private fun MiniPlayer(
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            // Artwork
             com.musicplayer.core.ui.component.TrackArtwork(
                 track = track,
                 modifier = Modifier.size(48.dp),
@@ -276,7 +251,6 @@ private fun MiniPlayer(
 
             Spacer(modifier = Modifier.width(12.dp))
 
-            // Track info
             Column(
                 modifier = Modifier
                     .weight(1f)
@@ -296,7 +270,6 @@ private fun MiniPlayer(
                 )
             }
 
-            // Play/Pause
             IconButton(onClick = onPlayPauseClick) {
                 Icon(
                     imageVector = if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
