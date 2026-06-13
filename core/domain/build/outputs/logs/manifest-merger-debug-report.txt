@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml:2:13-83
-INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml:2:13-83
+ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml:2:13-83
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml:2:13-83
 	package
-		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml
 	xmlns:android
-		ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml:2:23-81
+		ADDED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml:2:23-81
 uses-sdk
-INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml reason: use-sdk injection requested
-INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml
-INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml reason: use-sdk injection requested
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml
+INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml
 	android:targetSdkVersion
-		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml
 	android:minSdkVersion
-		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest3415822440035963982.xml
+		INJECTED from /data/data/com.termux/files/home/ars-music-v/core/domain/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest565049665501694865.xml

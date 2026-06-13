@@ -4,7 +4,7 @@
             "outputFile": "com.musicplayer.app-mergeDebugResources-72:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/621daebf5d050ef79ab60ea9a4f913ff/transformed/media3-ui-1.4.1/res/values-v21/values-v21.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/ff44772e194767785e8676aba24e299e/transformed/media3-ui-1.4.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/38f7ce463d6145ebcab8386043015199/transformed/core-1.13.1/res/values-v21/values-v21.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/fb1764cdb2e4f4ba8e134e9f7abc3bd3/transformed/core-1.13.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f38a96cf77c5d75586d3a97e953f522e/transformed/media3-session-1.4.1/res/values-v21/values-v21.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/526f2dba2d06da99c013a23afa4aea88/transformed/media3-session-1.4.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
